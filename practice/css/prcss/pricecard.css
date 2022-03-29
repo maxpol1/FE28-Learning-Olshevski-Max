@@ -1,0 +1,59 @@
+.pricing-list {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   text-align: center;
+   font-size: 14px;
+}
+.pricing-free {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.free-card .gb {
+   width: 240px;
+   padding-block-end: 1px;
+   font-weight: 400;
+   border: 1px solid #f5f5f5;
+   background: #ffffff;
+   color: #86878b;
+}
+.free-top {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 20px;
+   background: #333333;
+   color: #ffffff;
+   font-weight: 700;
+   height: 50px;
+   border: 1px solid #f5f5f5;
+}
+.free-price {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 20px;
+   background: #333333;
+   color: #ffffff;
+   font-weight: 700 bolder;
+   height: 100px;
+   border: 1px solid #f5f5f5;
+}
+.free-life {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 14px;
+   background: #333333;
+   color: #ffffff;
+   font-weight: 600 bold;
+   height: 50px;
+   border: 1px solid #f5f5f5;
+}
+/* .gb {
+   border: 1px solid #f5f5f5;
+   background: #ffffff;
+   color: #86878b;
+} */
