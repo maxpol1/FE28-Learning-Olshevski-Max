@@ -1,0 +1,16 @@
+.axure-box-hed h2 {
+   color: rgb(255, 255, 255);
+}
+.square-lines {
+   border: 1px solid #ffffff;
+   width: 64px;
+   display: flexbox;
+   margin: 0 auto 34px;
+}
+.arbittrar-text {
+   font-family: "open sans";
+   font-size: 14px;
+   font-weight: 400;
+   color: #ffffff;
+   text-align: center;
+}
