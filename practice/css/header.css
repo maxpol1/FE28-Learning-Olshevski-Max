@@ -1,0 +1,48 @@
+.header {
+   max-width: 1170px;
+   padding: 0 15px;
+   margin: auto;
+   background-color: #161111;
+   padding: 20px 0;
+}
+.content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.logotype {
+}
+.logo-axit {
+   font-weight: 400;
+   font-size: 30px;
+   color: #fff;
+   font-family: "Times New Roman", Times, serif;
+   text-align: center;
+   margin-left: 5%;
+}
+.logo-axit::after {
+   content: "IT";
+   color: #ec7979;
+}
+.navigate {
+   display: flex;
+   align-items: center;
+}
+.navigate-point {
+   width: 500px;
+   display: flex;
+   justify-content: center;
+   justify-content: space-between;
+}
+.navigate-point-list a {
+   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+      sans-serif;
+   color: rgb(167, 164, 164);
+}
+.navigate-point-list:hover {
+   border-bottom: 3px;
+   cursor: pointer;
+   transition: 0.5s;
+   position: relative;
+   transform: translateY(-3px);
+}

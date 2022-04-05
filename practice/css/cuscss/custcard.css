@@ -1,26 +1,57 @@
 .brif-box {
    display: flex;
    justify-content: space-around;
-   align-items: center;
    flex-wrap: wrap;
 }
 .brif-card {
-   font-family: "Open Sans";
-   font-weight: 400;
+   max-width: 298px;
+   margin: 0 15px;
 }
 .brif-discribt {
-   text-align: center;
-   width: 250px;
+   /* text-align: center; */
+   border-radius: 7px;
+   width: 253px;
    padding: 22px;
-}
-.dissribt-only {
-   font-family: "Open Sans";
-   font-weight: 400;
    background: #e2e2e2;
+   margin-bottom: 27px;
+}
+.brif-discribt::before {
+   content: "";
+   display: block;
+   height: 0;
+   width: 0;
+   border-top: 15px solid #9e1313;
+   border-right: 15px solid transparent;
+   border-left: 15px solid transparent;
+   position: absolute;
+   top: 100%;
+   /* left: 40px; */
+}
+
+.dissribt-only {
+   font-size: 14px;
+   text-align: center;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 400;
+   text-align: center;
+   color: #86878b;
+}
+.dissribt-only::before {
+   content: "";
+   /* display: block;
+   height: 0;
+   width: 0; */
+   border-top: 15px solid #9e1313;
+   border-right: 15px solid transparent;
+   border-left: 15px solid transparent;
+   position: absolute;
+   top: 100%;
+   /* left: 40px; */
 }
 .brif-person {
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
+   /* margin-top: 27px; */
 }
 .brif-foto {
    width: 70px;
