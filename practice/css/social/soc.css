@@ -1,0 +1,27 @@
+.social {
+   background-color: #f8efef;
+   padding: 15px;
+}
+.social-box {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.social-text {
+   margin-left: 3%;
+   width: 365px;
+}
+.name-social {
+   font-weight: 7 00;
+   font-family: sans-serif;
+   font-style: normal;
+}
+.text-title {
+   margin-top: 14px;
+}
+.text-title-descript {
+   font-weight: 400;
+   font-family: "Times New Roman", Times, serif;
+   text-align: left;
+}

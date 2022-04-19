@@ -1,0 +1,82 @@
+/* .list {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} */
+.list-links {
+   width: 600px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+/* .list-links-icon {
+ font-size: 42px;
+   font-weight: 600;
+   background-color: rgba(136, 133, 133, 0.2);
+   display: block;
+}
+ .list-links-icon:hover {
+   transform: translate(20px -20px);
+} */
+
+/* .list-icon {
+   ссылка
+}  */
+
+/* .fa-brands {
+   общий для всех <i>
+} */
+.all-links-social {
+   width: 30px;
+   height: 30px;
+   font-size: 42px;
+   font-weight: 600;
+   color: rgba(136, 133, 133, 0.2);
+   transition: 0.5s;
+}
+.all-links-social:hover {
+   display: block;
+   transform: rotateY(30px);
+   color: rgb(250, 135, 27);
+   border-bottom: 3px;
+   cursor: pointer;
+   transition: 0.5s;
+   position: relative;
+   transform: translateY(-10px);
+}
+
+/* .fa-facebook-f {
+   font-size: 42px;
+   font-weight: 600;
+   color: rgba(136, 133, 133, 0.2);
+}
+.fa-twitter {
+   font-size: 42px;
+   font-weight: 600;
+   color: rgba(136, 133, 133, 0.2);
+}
+.fa-goodreads-g {
+   font-size: 42px;
+   font-weight: 600;
+   color: rgba(136, 133, 133, 0.2);
+}
+.fa-pinterest-p {
+   font-size: 42px;
+   font-weight: 600;
+   color: rgba(136, 133, 133, 0.2);
+}
+.fa-odnoklassniki {
+   font-size: 42px;
+   font-weight: 600;
+   color: rgba(136, 133, 133, 0.2);
+}
+.fa-vk {
+   font-size: 42px;
+   font-weight: 600;
+   color: rgba(136, 133, 133, 0.2);
+}
+.fa-instagram {
+   font-size: 42px;
+   font-weight: 600;
+   color: rgba(136, 133, 133, 0.2);
+} */

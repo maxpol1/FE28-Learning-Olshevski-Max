@@ -1,0 +1,61 @@
+.footter {
+   max-width: 1170px;
+   margin: auto;
+   background-color: #161111;
+   padding: 20px 0;
+}
+.latest-content-foot {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.list-links-foot {
+   width: 320px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+/* .list-links-icon-foot {
+} */
+.all-links-footer {
+   font-size: 23px;
+   color: #fff;
+}
+.box-tex-foot {
+   padding-top: 18px;
+}
+.the-text-foot {
+   text-align: center;
+   color: rgba(255, 255, 255, 0.5);
+}
+/* .list-icon-foot {
+   ссылка 
+   пока не трогаем
+   пусть будет
+} */
+/* .fa-brands {
+   общий
+} */
+/* .fa-facebook-f {
+   основные классы 
+   для всех шрифтов
+   подобного типа 
+   лучше не обращаться
+   примениться по всем
+}
+
+.fa-twitter {
+}
+.fa-goodreads-g {
+}
+.fa-pinterest-p {
+}
+.fa-odnoklassniki {
+}
+.fa-vk {
+}
+.fa-instagram {
+} */

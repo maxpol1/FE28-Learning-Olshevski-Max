@@ -8,7 +8,13 @@
 @import url("../css/axure/axur.css");
 @import url("../css/axure/axurbox.css");
 @import url("../css/header.css");
-@import url("../img");
+@import url("../css/cdn.css");
+@import url("../css/social/soc.css");
+@import url("../css/social/soccart.css");
+@import url("../css/footer/foote.css");
+@import url("../css/axit/axit.css");
+@import url("../css/axit/axitbox.css");
+
 /* @import url("../css/header.css"); */
 /* @import url("../css/footer.css"); */
 * {
@@ -29,10 +35,12 @@ html {
    padding: 0 15px;
    margin: auto;
    position: relative;
-   z-index: 33;
+   z-index: 101;
 }
 section {
    padding: 80px 0;
+   max-width: 1170px;
+   margin: auto;
 }
 .title {
    font-family: Raleway;
